@@ -1,0 +1,13 @@
+{
+  "names": {
+    "rsaccon": "71624a16ca4447386821bf10f48bd5383a5a37d022ba153f60f802ba298a9f89"
+  },
+  "relays": {
+    "71624a16ca4447386821bf10f48bd5383a5a37d022ba153f60f802ba298a9f89": [
+      "wss://relay.damus.io",
+      "wss://nos.lol",
+      "wss://nostr.land",
+      "wss://nostr.wine"
+    ]
+  }
+}
