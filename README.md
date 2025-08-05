@@ -4,7 +4,7 @@
 zolo build
 rm -rf ../wenostr.github.com/*
 cd public
-cp -r * ../../wenostr.github.com
+cp -r * ../../wenostr.github.io
 cd ..
 ```
 Then git commit and push

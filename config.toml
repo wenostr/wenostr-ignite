@@ -157,7 +157,7 @@ menu_name = [
 
 # The URL of avatar.
 # e.g. "icons/github.svg"
-avatar_url = "icons/example.svg"  # TODO
+avatar_url = "wenostr-logo.svg"  # TODO
 
 # A description of what is in the avatar.
 avatar_alt = "Placeholder"  # TODO
@@ -168,11 +168,11 @@ avatar_invert = false
 
 # Profile name.
 # Default value: the username
-name = "WeNostr"
+name = "wenostr"
 
 # Profile bio.
 # Supports Markdown.
-bio = "nothing here yet ..."
+bio = "More info and app available soon ..."
 
 # Social icons.
 # "name" should be the file name of "static/icons/*.svg" or
@@ -212,7 +212,7 @@ license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
 
 # Replace "Your Name" with your name and "CC BY-SA 4.0" with the name of the license you want.
 # copyright = "&copy; $YEAR Your Name &vert; [CC BY-SA 4.0]($LICENSE_URL)"
-copyright = "&copy; $YEAR - Made with love by the WeNostr collaborators "
+copyright = "&copy; $YEAR - Made with love by the wenostr collaborators "
 
 # Not used yet.
 # Supports "$BASE_URL".
