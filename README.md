@@ -1,9 +1,11 @@
-# Deployment (manually, for now)
+# wenostr.com
+
+## Deployment
 
 ```Shell
-zolo build
-rm -rf ../wenostr.github.com/*
-cd public
+iginite build
+rm -rf ../wenostr.github.io/*
+cd Build
 cp -r * ../../wenostr.github.io
 cd ..
 ```
