@@ -4,7 +4,7 @@ struct NavBar: HTML {
     var body: some HTML {
         NavigationBar {
             Link("FAQ", target: Faq())
-            Link("News", target: News())
+            Link("Blog", target: Blog())
         } logo: {
             Span("WeNostr")
                 .font(.title3)

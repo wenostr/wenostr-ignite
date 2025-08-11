@@ -24,7 +24,7 @@ struct Home: StaticPage {
         }
 
         if !mostRecent4Articles.isEmpty {
-            HeaderText("Latest news", size: .h3)
+            HeaderText("Latest blog posts", size: .h3)
                 .padding(.top, 8)
 
             ForEach(mostRecent4Articles) { article in
@@ -32,7 +32,7 @@ struct Home: StaticPage {
                     .articlePreviewStyle(DynamicArticlePreviewStyle())
             }
 
-            Badge(name: "All News Posts", size: .title5, path: "/news")
+            Badge(name: "All blog posts", size: .title5, path: "/blog")
                 .padding(.top)
         }
     }

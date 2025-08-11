@@ -33,7 +33,7 @@ struct WeNostrSite: Site {
 
     var staticPages: [any StaticPage] {
         Home()
-        News()
+        Blog()
         Faq()
     }
 

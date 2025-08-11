@@ -7,13 +7,9 @@ struct Footer: HTML {
     var body: some HTML {
         VStack(spacing: 8) {
             Text {
-                "© 2025 WeNostr - Made with "
+                "© 2025 WeNostr - made with love and "
                 Link("Ignite", target: "https://github.com/twostraws/Ignite")
                     .role(.none)
-                " / "
-                Link("Ryan Token", target: "https://github.com/r-token/ryantoken.com-v4-ignite")
-                    .role(.none)
-                " theme"
             }
             .foregroundStyle(.secondary)
             // SocialsBar()  // not enabling, for now !

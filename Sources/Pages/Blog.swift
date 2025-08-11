@@ -1,10 +1,10 @@
 import Ignite
 
-struct News: StaticPage {
+struct Blog: StaticPage {
     @Environment(\.articles) var articles
 
-    var title = "WeNostr - News"
-    var description = "All news posts."
+    var title = "WeNostr - Blog"
+    var description = "All blog posts."
     // var image: URL? = URL(static: Constants.staticProfileImagePath)
 
     var sortedArticles: [Article] {
@@ -12,12 +12,12 @@ struct News: StaticPage {
     }
 
     var body: some HTML {
-        HeaderText("News", size: .h2)
+        HeaderText("Blog", size: .h2)
         if sortedArticles.isEmpty {
-            SubheaderText("No news yet. Subscribe to [RSS feed](/feed.rss).")
+            SubheaderText("Nothing posted yet. Subscribe to [RSS feed](/feed.rss).")
                 .padding(.bottom)
         } else {
-            SubheaderText("All news posts. Subscribe to [RSS feed](/feed.rss).")
+            SubheaderText("All blog posts. Subscribe to [RSS feed](/feed.rss).")
                 .padding(.bottom)
         }
 
