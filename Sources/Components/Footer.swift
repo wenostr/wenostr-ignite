@@ -21,11 +21,3 @@ struct Footer: HTML {
         .padding(.top, 50)
     }
 }
-
-// Text {
-//             "Created in Swift with "
-//             Link("Ignite", target: "https://github.com/twostraws/Ignite")
-//                 .target(.newWindow)
-//                 .relationship(.noOpener)
-//                 .role(.none)
-//         }
