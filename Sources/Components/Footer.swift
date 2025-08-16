@@ -7,12 +7,16 @@ struct Footer: HTML {
     var body: some HTML {
         VStack(spacing: 8) {
             Text {
-                "© 2025 WeNostr - made with love and "
-                Link("Ignite", target: "https://github.com/twostraws/Ignite")
+                "© 2025 The WeNostr authors - "
+                Link("Privacy", target: "/privacy")
                     .role(.none)
+                " - "
+                Link("Open source", target: Constants.githubUrl)
+                    .role(.none)
+                    .target(.newWindow)
+                    .relationship(.noOpener)
             }
             .foregroundStyle(.secondary)
-            // SocialsBar()  // not enabling, for now !
         }
         .padding(.top, 50)
     }

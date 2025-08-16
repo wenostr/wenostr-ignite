@@ -35,6 +35,7 @@ struct WeNostrSite: Site {
         Home()
         Blog()
         Faq()
+        Privacy()
     }
 
     var articlePages: [any ArticlePage] {

@@ -8,9 +8,8 @@ struct Faq: StaticPage {
     var body: some HTML {
         HeaderText("FAQ", size: .h2)
 
-        // Text(markdown: """
-        //     Soon... See e.g.: [nostr.org](http://ostr.org) and [ostr.how](http://ostr.how) for detailed explanations
-        // """)
+        Text("What is nostr?").font(.title3)
+        Text(markdown: "See e.g.: [nostr.org](http://ostr.org) or [ostr.how](http://ostr.how) for detailed explanation.")
 
         Text("When will the app launch?").font(.title3)
         Text("Soon...")
