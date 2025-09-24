@@ -1,9 +1,16 @@
 {
   "names": {
-    "rsaccon": "71624a16ca4447386821bf10f48bd5383a5a37d022ba153f60f802ba298a9f89"
+    "rsaccon": "71624a16ca4447386821bf10f48bd5383a5a37d022ba153f60f802ba298a9f89",
+    "test": "e91a0428694b29c1a78a2042732f5a47fcb67c0b0b5a10f0eb28bd0045debf79"
   },
   "relays": {
     "71624a16ca4447386821bf10f48bd5383a5a37d022ba153f60f802ba298a9f89": [
+      "wss://relay.damus.io",
+      "wss://nos.lol",
+      "wss://nostr.land",
+      "wss://nostr.wine"
+    ],
+    "e91a0428694b29c1a78a2042732f5a47fcb67c0b0b5a10f0eb28bd0045debf79": [
       "wss://relay.damus.io",
       "wss://nos.lol",
       "wss://nostr.land",
@@ -12,6 +19,12 @@
   },
   "nip46": {
     "71624a16ca4447386821bf10f48bd5383a5a37d022ba153f60f802ba298a9f89": [
+      "wss://theforest.nostr1.com",
+      "wss://relay.nsec.app",
+      "wss://nostr.oxtr.dev",
+      "wss://relay.primal.net/&secret=ec1a98"
+    ],
+    "e91a0428694b29c1a78a2042732f5a47fcb67c0b0b5a10f0eb28bd0045debf79": [
       "wss://theforest.nostr1.com",
       "wss://relay.nsec.app",
       "wss://nostr.oxtr.dev",
